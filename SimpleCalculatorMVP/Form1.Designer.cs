@@ -98,6 +98,7 @@ namespace SimpleCalculatorMVP
 			this.btnSumation.TabIndex = 6;
 			this.btnSumation.Text = "+";
 			this.btnSumation.UseVisualStyleBackColor = true;
+			this.btnSumation.Click += new System.EventHandler(this.btnSumation_Click);
 			// 
 			// btnSubstraction
 			// 
@@ -107,6 +108,7 @@ namespace SimpleCalculatorMVP
 			this.btnSubstraction.TabIndex = 7;
 			this.btnSubstraction.Text = "-";
 			this.btnSubstraction.UseVisualStyleBackColor = true;
+			this.btnSubstraction.Click += new System.EventHandler(this.btnSubstraction_Click);
 			// 
 			// btnMultiplication
 			// 
@@ -116,6 +118,7 @@ namespace SimpleCalculatorMVP
 			this.btnMultiplication.TabIndex = 8;
 			this.btnMultiplication.Text = "x";
 			this.btnMultiplication.UseVisualStyleBackColor = true;
+			this.btnMultiplication.Click += new System.EventHandler(this.btnMultiplication_Click);
 			// 
 			// btnDivition
 			// 
@@ -125,6 +128,7 @@ namespace SimpleCalculatorMVP
 			this.btnDivition.TabIndex = 9;
 			this.btnDivition.Text = "/";
 			this.btnDivition.UseVisualStyleBackColor = true;
+			this.btnDivition.Click += new System.EventHandler(this.btnDivition_Click);
 			// 
 			// Form1
 			// 
@@ -144,6 +148,7 @@ namespace SimpleCalculatorMVP
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
 			this.MaximizeBox = false;
 			this.Name = "Form1";
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Form1";
 			this.ResumeLayout(false);
 			this.PerformLayout();
